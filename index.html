@@ -16,31 +16,27 @@
 
 <body>
     <div class="modalBackground" id='modalBackground' onclick="closeModal()"></div>
-        <div class="modal" id='modal'>
-            
-            <div class="modalHeader">Seller Info</div>
 
-            <div class="modalContainer">
-                <div class="modalCustomerData">
-                    <div class="modalCustomerDataCustomerName" id = "modalCustomerDataCustomerName">Customer Name</div>
-                    <div class="modalCustomerDataCustomerStatus">Customer Status</div>
-                </div>
+    <div class="modal" id='modal'>            
+        <div class="modalHeader">Seller Info</div>
 
-                <div>
-                    <button class="modalContainerContactButton" onclick="getCustomerName()">CONTACT SELLER</button>
-                </div>
+        <div class="modalContainer">
+            <div class="modalCustomerData">
+                <div class="modalCustomerDataCustomerName" id = "modalCustomerDataCustomerName">Customer Name</div>
+                <div class="modalCustomerDataCustomerStatus">Customer Status</div>
+            </div>
 
+            <div>
+                <button class="modalContainerContactButton" onclick="getCustomerName()">CONTACT SELLER</button>
             </div>
         </div>
-    
+    </div>    
 
     <div class="wrapper">
         <div class="contentSettings">
 
-
             <div class="contentWrapper">
                 <div class="elementWrapper">
-
                     <div class="elementPhoto">                        
                         <div class="elementPhotoCar">
                             <img src="Img\Photo\1.jpg" alt="No Image">
@@ -61,7 +57,6 @@
                                 <div class="elementCarCurrentPrice">$40,000 |</div>
                                 <div class="elementCarCurrentAuctionTime"> 21:15 </div>
                             </div>
-
                         </div>
 
                         <div class="elementDescriptionBookMarkButton">
@@ -71,11 +66,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
+            </div> 
+            
             <div class="contentWrapper">
                 <div class="elementWrapper">
-
                     <div class="elementPhoto">                        
                         <div class="elementPhotoCar">
                             <img src="Img\Photo\1.jpg" alt="No Image">
@@ -96,116 +90,19 @@
                                 <div class="elementCarCurrentPrice">$40,000 |</div>
                                 <div class="elementCarCurrentAuctionTime"> 21:15 </div>
                             </div>
-
-                        </div>
-
-                        <div class="elementDescriptionBookMarkButton"><img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon--v1.png"/></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="contentWrapper">
-                <div class="elementWrapper">
-
-                    <div class="elementPhoto">                        
-                        <div class="elementPhotoCar">
-                            <img src="Img\Photo\1.jpg" alt="No Image">
-
-                            <div class="elementPhotoHoverText">NO RESERVE</div>
-                        </div>
-                    </div>                    
-
-                    <div class="elementDescription">
-                        <div class="elementDescriptionText">
-
-                            <div class="elementCarDescription">
-                                <div class="elementCarName">2017 Porche</div>
-                                <div class="elementCarDescription">911 Carrera</div>
-                            </div>
-
-                            <div class="elementCarAuctionInfo">
-                                <div class="elementCarCurrentPrice">$40,000 |</div>
-                                <div class="elementCarCurrentAuctionTime"> 21:15 </div>
-                            </div>
-
-                        </div>
-
-                        <div class="elementDescriptionBookMarkButton"><img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon--v1.png"/></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="contentWrapper">
-                <div class="elementWrapper">
-
-                    <div class="elementPhoto">                        
-                        <div class="elementPhotoCar">
-                            <img src="Img\Photo\1.jpg" alt="No Image">
-
-                            <div class="elementPhotoHoverText">NO RESERVE</div>
-                        </div>
-                    </div>                    
-
-                    <div class="elementDescription">
-                        <div class="elementDescriptionText">
-
-                            <div class="elementCarDescription">
-                                <div class="elementCarName">2017 Porche</div>
-                                <div class="elementCarDescription">911 Carrera</div>
-                            </div>
-
-                            <div class="elementCarAuctionInfo">
-                                <div class="elementCarCurrentPrice">$40,000 |</div>
-                                <div class="elementCarCurrentAuctionTime"> 21:15 </div>
-                            </div>
-
-                        </div>
-
-                        <div class="elementDescriptionBookMarkButton"><img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon--v1.png"/></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="contentWrapper">
-                <div class="elementWrapper">
-
-                    <div class="elementPhoto">                        
-                        <div class="elementPhotoCar">
-                            <img src="Img\Photo\1.jpg" alt="No Image">
-
-                            <div class="elementPhotoHoverText">NO RESERVE</div>
-                        </div>
-                    </div>                    
-
-                    <div class="elementDescription">
-                        <div class="elementDescriptionText">
-
-                            <div class="elementCarDescription">
-                                <div class="elementCarName">2017 Porche</div>
-                                <div class="elementCarDescription">911 Carrera</div>
-                            </div>
-
-                            <div class="elementCarAuctionInfo">
-                                <div class="elementCarCurrentPrice">$40,000 |</div>
-                                <div class="elementCarCurrentAuctionTime"> 21:15 </div>
-                            </div>
-
                         </div>
 
                         <div class="elementDescriptionBookMarkButton">
-
-                            <a href="">
+                            <a onclick="openModal()" href="#">
                                 <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon--v1.png"/>
-                            </a>
-
+                            </a>  
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
 
             <div class="contentWrapper">
                 <div class="elementWrapper">
-
                     <div class="elementPhoto">                        
                         <div class="elementPhotoCar">
                             <img src="Img\Photo\1.jpg" alt="No Image">
@@ -226,16 +123,115 @@
                                 <div class="elementCarCurrentPrice">$40,000 |</div>
                                 <div class="elementCarCurrentAuctionTime"> 21:15 </div>
                             </div>
-
                         </div>
 
-                        <div class="elementDescriptionBookMarkButton"><img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon--v1.png"/></div>
+                        <div class="elementDescriptionBookMarkButton">
+                            <a onclick="openModal()" href="#">
+                                <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon--v1.png"/>
+                            </a>  
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div> 
 
+            <div class="contentWrapper">
+                <div class="elementWrapper">
+                    <div class="elementPhoto">                        
+                        <div class="elementPhotoCar">
+                            <img src="Img\Photo\1.jpg" alt="No Image">
 
+                            <div class="elementPhotoHoverText">NO RESERVE</div>
+                        </div>
+                    </div>                    
+
+                    <div class="elementDescription">
+                        <div class="elementDescriptionText">
+
+                            <div class="elementCarDescription">
+                                <div class="elementCarName">2017 Porche</div>
+                                <div class="elementCarDescription">911 Carrera</div>
+                            </div>
+
+                            <div class="elementCarAuctionInfo">
+                                <div class="elementCarCurrentPrice">$40,000 |</div>
+                                <div class="elementCarCurrentAuctionTime"> 21:15 </div>
+                            </div>                            
+                        </div>
+
+                        <div class="elementDescriptionBookMarkButton">
+                            <a onclick="openModal()" href="#">
+                                <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon--v1.png"/>
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="contentWrapper">
+                <div class="elementWrapper">
+                    <div class="elementPhoto">                        
+                        <div class="elementPhotoCar">
+                            <img src="Img\Photo\1.jpg" alt="No Image">
+
+                            <div class="elementPhotoHoverText">NO RESERVE</div>
+                        </div>
+                    </div>                    
+
+                    <div class="elementDescription">
+                        <div class="elementDescriptionText">
+
+                            <div class="elementCarDescription">
+                                <div class="elementCarName">2017 Porche</div>
+                                <div class="elementCarDescription">911 Carrera</div>
+                            </div>
+
+                            <div class="elementCarAuctionInfo">
+                                <div class="elementCarCurrentPrice">$40,000 |</div>
+                                <div class="elementCarCurrentAuctionTime"> 21:15 </div>
+                            </div>
+                        </div>
+
+                        <div class="elementDescriptionBookMarkButton">
+                            <a onclick="openModal()" href="#">
+                                <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon--v1.png"/>
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="contentWrapper">
+                <div class="elementWrapper">
+                    <div class="elementPhoto">                        
+                        <div class="elementPhotoCar">
+                            <img src="Img\Photo\1.jpg" alt="No Image">
+
+                            <div class="elementPhotoHoverText">NO RESERVE</div>
+                        </div>
+                    </div>                    
+
+                    <div class="elementDescription">
+                        <div class="elementDescriptionText">
+
+                            <div class="elementCarDescription">
+                                <div class="elementCarName">2017 Porche</div>
+                                <div class="elementCarDescription">911 Carrera</div>
+                            </div>
+
+                            <div class="elementCarAuctionInfo">
+                                <div class="elementCarCurrentPrice">$40,000 |</div>
+                                <div class="elementCarCurrentAuctionTime"> 21:15 </div>
+                            </div>
+                        </div>
+
+                        <div class="elementDescriptionBookMarkButton">
+                            <a onclick="openModal()" href="#">
+                                <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon--v1.png"/>
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+            </div> 
         </div>
-    </div>
-    
+    </div>    
 </body>
